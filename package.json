@@ -1,0 +1,19 @@
+{
+  "name": "criptomonitor",
+  "version": "1.0.0",
+  "description": "Chatbot para monitoramento de criptomoedas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "PauloSouza",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "node-cron": "^2.0.3",
+    "require-dir": "^1.2.0",
+    "venom-bot": "^2.2.3"
+  }
+}
