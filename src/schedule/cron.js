@@ -1,6 +1,6 @@
 const users = require('../database/UserDB'); 
 const api = require('../API/ApiNovaDax');
-const variacao = 10;
+const variacao = 5;
 
 module.exports = {
     async agendamentos(client){
