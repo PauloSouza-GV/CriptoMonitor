@@ -2,9 +2,10 @@ const venom = require('venom-bot');
 const mongoose = require('mongoose');
 const requireDir = require('require-dir');
 const cron = require('node-cron');
+require('dotenv/config');
 
 /*Conexão com o banco de dados*/
-mongoose.connect('mongodb://localhost:27017/CriptoMonitor', {
+mongoose.connect( process.env.DATABASE, {
     useNewUrlParser: true, 
     useUnifiedTopology: true, 
     useCreateIndex: true,
