@@ -17,6 +17,6 @@ const UsersSchema = new mongoose.Schema({
         type: Number,
         required: false
     }
-});
+}, { collection: "CriptoMonitor" });
 
 mongoose.model('Users', UsersSchema);
