@@ -6,8 +6,16 @@
   "scripts": {
     "start": "node ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloSouza-GV/CriptoMonitor.git"
+  },
   "author": "PauloSouza",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloSouza-GV/CriptoMonitor/issues"
+  },
+  "homepage": "https://github.com/PauloSouza-GV/CriptoMonitor#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
