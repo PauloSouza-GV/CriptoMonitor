@@ -4,6 +4,8 @@ const requireDir = require('require-dir');
 const cron = require('node-cron');
 require('dotenv/config');
 
+console.log(process.env.DATABASE);
+
 /*Conexão com o banco de dados*/
 mongoose.connect( process.env.DATABASE, {
     useNewUrlParser: true, 
