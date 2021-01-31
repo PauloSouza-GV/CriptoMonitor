@@ -23,8 +23,8 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        rm -rf node_modules/sharp
-        npm install --arch=x64 --platform=linux --target=8.10.0 sharp
+        rmdir /s /q node_modules/sharp
+        npm install --arch=x64 --platform=linux sharp        
         npm run build --if-present
         npm run test --if-present
 
